@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order{
+    display: flex;
+    list-style-type: none;
+}
+
+.order li{
+    padding: 0 20px 0 20px;
+}
+
+
+button{
+    padding: 10px 30px;
+    border:transparent ;
+    border-radius:  10px;
+    background-color: black;
+    color: white; 
+}
